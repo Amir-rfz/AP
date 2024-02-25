@@ -1,0 +1,16 @@
+6
+NetworkSecurity 3 ComputerNetworks
+DesignOfAlgorithms 3 DataStructures,ProbabilityAndStatistics
+OperatingSystems 3 ComputerArchitecture,DataStructures
+NetworkLaboratory 1 ComputerNetworks
+CyberPhysicalSystems 3 OperatingSystems
+ArtificialIntelligence 3 AdvancedProgramming
+5
+ComputerNetworks 3 15
+DataStructures 3 18
+ProbabilityAndStatistics 3 17.5
+ComputerArchitecture 3 16
+AdvancedProgramming 3 19
+5
+NetworkSecurity DesignOfAlgorithms OperatingSystems
+NetworkLaboratory ArtificialIntelligence
