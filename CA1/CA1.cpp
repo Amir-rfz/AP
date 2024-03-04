@@ -3,7 +3,7 @@
 #include<vector>
 using namespace std;
 
-//making a structur for each lesson we want to get this term
+//making a structure for each lesson we want to get this term
 struct lessons{
     string course_name;
     int units;
@@ -21,7 +21,7 @@ vector<lessons> get_this_term_lesson(int num){
     return result;
 }
 
-//making a structur for each lesson we had in past
+//making a structure for each lesson we had in past
 struct past_lessons{
     string course_name;
     int units;
@@ -71,8 +71,8 @@ int number_of_unit(vector<string> wanted_lessons,vector<lessons> this_term_lesso
         for(int j=0;j<this_term_lesson.size();j++){
             if(wanted_lessons[i]==this_term_lesson[j].course_name)
                 units+=this_term_lesson[j].units;
-        }
     }
+}
     return units;
 }
 
