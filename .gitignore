@@ -1,4 +1,6 @@
 /class_test
 /apnotes
-CA1/.vscode/
-CA1/a.out
+*/.vscode/
+*/a.out
+
+CA2/3
