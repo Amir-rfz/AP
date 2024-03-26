@@ -101,7 +101,7 @@ bool check_max_units(vector<lessons> this_term_lesson,vector<past_lessons> past_
     int unit_number=number_of_unit(wanted_lessons,this_term_lesson);
     if(gpa>=17 && unit_number<=24)
         return true;
-    if(12<=gpa<17 && unit_number<=20)
+    if(12<=gpa && gpa<17 && unit_number<=20)
         return true;
     if(gpa<12 && unit_number<=14)
         return true;

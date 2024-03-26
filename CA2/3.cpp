@@ -1,9 +1,6 @@
 #include<iostream>
 #include<vector>
-#include<utility>
-#include <climits>
-#include <algorithm>
-#include <iterator> 
+ 
 using namespace std;
 
 struct train{
